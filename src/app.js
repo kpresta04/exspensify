@@ -26,7 +26,7 @@ store.dispatch(
 
 // store.dispatch(setTextFilter("gas"));
 const state = store.getState();
-console.log(getVisibleExpenses(state.expenses, state.filters));
+// console.log(getVisibleExpenses(state.expenses, state.filters));
 
 const jsx = (
   <Provider store={store}>
